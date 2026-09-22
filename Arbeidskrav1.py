@@ -3,7 +3,7 @@
 """
 Created on Tue Sep 22 19:53:10 2026
 Arbeidskrav 1
-@author: meriam berraho
+@author: meriam berh
 """
 
 #%% Totalkostnader elbil
