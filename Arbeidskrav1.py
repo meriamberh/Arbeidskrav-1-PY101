@@ -3,7 +3,7 @@
 """
 Created on Tue Sep 22 19:53:10 2026
 Arbeidskrav 1
-@author: meriam
+@author: meriam berraho
 """
 
 #%% Totalkostnader elbil
@@ -27,4 +27,21 @@ print('Totale årlige kostnader elbil =', elbil)
 #tilegner all viktig informasjon variabler her òg 
 
 f2 = 7500
+bensin = 1.0 * km
+bom2 = 0.3 * km
+
+bensinbil = f2 + tfa + bensin + bom2
+
+print('Totale årlige kostnader bensinbil', bensinbil)
+
+#Totalkostnader for bensinbil er på 23558.7
+
+
+#%% Kostnadsdifferanse
+kostnadsdifferanse = bensinbil - elbil
+
+print('Hvor mye sparer du ved å ha elbil sammenligner med bensinbil i løpet av ett år?', kostnadsdifferanse)
+
+#Kostnadsdifferansen er 10500 kr i året, som man sparer ved å ha elbil mot bensinbil.
+
 
